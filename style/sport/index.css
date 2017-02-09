@@ -1,0 +1,57 @@
+div.sport-top{
+    background-color: #e6e6e6;
+    line-height: 2rem;
+}
+
+.sport-top > span {
+    text-align: center;
+}
+.add{
+    position: fixed;
+    top: 0;
+    right: 10px;
+    z-index: 20;    
+    color: #eee;
+    vertical-align: middle; 
+    min-height: 40px;
+}
+.add > .add-icon{
+    display: block;
+    margin-top: 16%;
+}
+
+.sport-search{
+    display: block;
+    position: fixed;
+    width: 2rem;
+    height: 2rem;
+    line-height: 2rem;
+    border-radius: 1rem;
+    background-color: #ccc;
+    color: #eee;
+    margin-top: .2rem;
+    right: 1%;
+    overflow: hidden;
+	transition:width .5s;
+}
+.sport-search:hover{
+    width: 98%;
+}
+.sport-search>span{
+    float: left;
+    width: 90%;
+}
+.sport-search>span>input{    
+    vertical-align: bottom;
+    border: 0;
+    line-height: 2rem;
+    margin-left: 1.5rem;
+    width: 90%;
+    background-color: inherit;
+    outline: none;
+
+}
+.sport-search>i{
+    position: absolute;
+    right: .5rem;
+}

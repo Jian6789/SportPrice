@@ -1,0 +1,15 @@
+<div id='vm-app'>
+	<div class='scan-total'>
+		<div>共 <span>{{len}}</span> 件商品， <span>{{total}}</span> 元</div>
+	</div>	
+	<div id='sportlist'>
+		<div class='col sport-list list-line' s-for='item in list'>
+			<span class='col-50'>{{item.SportName}}</span>
+			<span class='col-30'>{{item.Price}}元</span>
+			<span class='col-20'>
+				<a class="btn btn-danger fontW" index='{{item.Index}}' s-on:click='remove'><i class="iconfont icon-lajixiang"></i></a>
+			</span>
+		</div>
+	</div>
+	<a class="scan-icon" s-on:click='scan'><i class="iconfont icon-saoyisao"></i></a>
+</div>

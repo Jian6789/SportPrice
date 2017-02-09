@@ -1,0 +1,28 @@
+<div id='vm-app' class="edit-content">
+    <span class='goback'><span class="goback-icon"><i class="iconfont icon-xiangzuojiantou fontsize20"></i></span></span>
+    <div class="col line-h item-line">
+        <span class="col-20">条码</span>
+        <span class="col-70"><input type="number" s-model='SportCode'></span>
+        <span class="col-10 txtcenter" s-on:click='scan'><i class="iconfont icon-saoyisao fontsize20"></i></span>
+    </div>
+    <div class="col line-h item-line">
+        <span class="col-20">名称</span>
+        <span class="col-80"><input type="text" s-model='SportName'></span>
+    </div>
+    <div class="col line-h item-line">
+        <span class="col-20">价格</span>
+        <span class="col-80"><input type="number" s-model='Price'></span>
+    </div>
+    <div class="col line-h item-line">
+        <span class="col-20">类型</span>
+        <span class="col-80"><input type="number" s-model='Type'></span>
+    </div>
+    <div class="col mgtop20">
+        <div class="col-50 height30">
+            <div class="width90p"><a class="btn btn-block btn-yellow" s-on:click='back'>取消</a></div>            
+        </div>
+        <div class="col-50 height30">
+            <div class="width90p"><a class="btn btn-block btn-blue" s-on:click='save'>确认</a></div>
+        </div>
+    </div>
+</div>	

@@ -1,0 +1,22 @@
+<div id='vm-app' class='pull pull-down'>
+    <a class='add' href="#edit"><span class="add-icon"><i class="iconfont icon-tianjia"></i>增加</span></a>
+    <a class='sport-search'><span><input s-model='condition' type="search" s-on:search='search' maxlength="15" /></span>
+		<i class="iconfont icon-sousuo" s-on:click='search'></i></a>
+	<div id='pull-down-tip' class='pull-tip'>{{refresh}}</div>
+	<div class='sport-top col'>
+		<span class='col-33'>商 品</span>
+		<span class='col-33'>价 格</span>
+		<span class='col-33'>操 作</span>
+	</div>
+	<div id='sportlist'>
+		<div class='col sport-list list-line' s-for='item in list'>
+			<span class='col-33'>{{item.SportName}}</span>
+			<span class='col-33'>{{item.Price}}元</span>
+			<span class='col-33'>
+				<a href='#edit?Id={{item.Id}}' class="btn btn-default"><i class="iconfont icon-wodedingdan"></i></a>
+				<a id='{{item.Id}}' s-on:click='del' class="btn btn-danger fontW"><i class="iconfont icon-lajixiang"></i></a>
+			</span>
+		</div>
+	</div>
+	<div id='pull-up-tip' class='pull-tip'>{{loadMore}}</div>
+</div>

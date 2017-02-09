@@ -1,0 +1,32 @@
+.scan-icon{
+    display: inline-block;
+    width: 3rem;
+    height: 3rem;
+    line-height: 3rem;
+    text-align: center;
+    position: fixed;
+    bottom: 10vh;
+    right: .2rem;
+    background-color: #dd524d;
+    border-radius: 50%;
+}
+.scan-icon .iconfont{
+    font-size: 20px;
+    font-weight: 500;
+    color: #eee;
+}
+
+.scan-total{
+    text-align: center;
+}
+.scan-total span{
+    font-size: 3.5rem;
+    color: #dd524d;    
+}
+.scan-total::after{
+    content: '';
+    display: block;
+    width: 96%;
+    border-top: 1px solid #dd524d;
+    margin: 0 auto;
+}

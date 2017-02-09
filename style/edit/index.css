@@ -1,0 +1,50 @@
+.goback{
+    position: fixed;
+    top: 0;
+    z-index: 20;    
+    color: #eee;
+    vertical-align: middle; 
+    min-height: 40px;
+}
+.goback > .goback-icon{
+    display: block;
+    margin-top: 50%;
+}
+.col input{
+    vertical-align: baseline;
+    display: inline-block;
+    width: 98%;
+    height: 30px;
+    border: 1px solid #eee;
+    background-color: #eee;
+    border-radius: 2px;
+    outline: none;
+    font-size: 17px;
+}
+.edit-content{
+    margin: 0 10px;
+    height: 100%;
+}
+.line-h{
+    height: 2.5rem;
+    line-height: 2.5rem;
+}
+.item-line{
+    border-bottom: 1px solid #ccc;
+}
+.txtcenter{
+    text-align: center;
+}
+.mgtop20{
+    margin-top:20px;
+}
+.height30{
+    height: 30px;
+}
+.height30 a{
+    line-height: 30px;
+}
+.width90p{
+    width:90%;
+    margin: 0 auto;
+}

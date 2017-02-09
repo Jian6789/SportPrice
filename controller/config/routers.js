@@ -1,0 +1,22 @@
+Single.Routers = [
+	{
+		url:'sport',
+		tempUrl:'view/sport/index.html',
+		ctrUrl:'controller/sport/index.js'
+	},
+	{
+		url:'scan',
+		tempUrl:'view/scan/index.html',
+		ctrUrl:'controller/scan/index.js'
+	},
+	{
+		url:'edit',
+		tempUrl:'view/edit/index.html',
+		ctrUrl:'controller/edit/index.js'
+	},
+	{
+		url:'record',
+		tempUrl:'view/record/index.html',
+		ctrUrl:'controller/record/index.js'
+	}
+];
